@@ -1,0 +1,11 @@
+{
+  "name": "gulp-hex-color-min",
+  "version": "1.0.0",
+  "description": "hex collor minify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
