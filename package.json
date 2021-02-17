@@ -1,7 +1,7 @@
 {
   "name": "gulp-hex-color-min",
-  "version": "1.0.3",
-  "description": "hex collor minify",
+  "version": "1.0.4",
+  "description": "hex color minify",
   "main": "index.js",
   "scripts": {
     "test": "gulp css"

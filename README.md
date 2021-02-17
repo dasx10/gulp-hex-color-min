@@ -1,4 +1,4 @@
-# gulp hex color minify
+# gulp hex color min
 Convert all hex colors to minimized lossless format
 ## install 
 
