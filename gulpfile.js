@@ -1,10 +1,10 @@
 const gulp = require('gulp');
-const read = require('./')
+const hexMin = require('gulp-hex-color-min')
 
-function test(){
-    return gulp.src('*.css')
-    .pipe(read())
+function css(){
+    return gulp.src('./*.css')
+    .pipe(hexMin())
     .pipe(gulp.dest('./a'))
 }
 
-module.exports.test = test;
+module.exports.css = css;
