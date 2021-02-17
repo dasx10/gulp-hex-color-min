@@ -1,13 +1,22 @@
 {
   "name": "gulp-hex-color-min",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hex collor minify",
   "main": "index.js",
   "scripts": {
     "test": "gulp css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasx10/less-mixin.git"
+  },
   "keywords":[
-    "gulpplugin"
+    "gulpplugin",
+    "color",
+    "hex",
+    "minify",
+    "optimisation",
+    "css"
   ],
   "author": "Yevhenii Kleshchev <dasx10@gmail.com>",
   "license": "ISC"

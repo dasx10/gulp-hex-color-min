@@ -1,25 +1,20 @@
 'use strict';
 const gutil = require('gulp-util');
 const through = require('through2');
-const fs = require('fs');
-
 module.exports = (options) => {
   // Какие-то действия с опциями. Например, проверка их существования,
   // задание значения по умолчанию и т.д.
-
 return through.obj(function(file, enc, cb) {
     // Если файл не существует
     if (file.isNull()) {
         cb(null, file);
         return;
     }
-
     // Если файл представлен потоком
     if (file.isStream()) {
         cb(new gutil.PluginError('gulp-example-plugin', 'Streaming not supported'));
         return;
     }
-
     // Код плагина
     let data = file.contents.toString();
     data = data.replace(/#000000/gi,'#000')
@@ -4118,10 +4113,7 @@ return through.obj(function(file, enc, cb) {
     data = data.replace(/#ffffdd/gi,'#ffd')
     data = data.replace(/#ffffee/gi,'#ffe')
     data = data.replace(/#ffffff/gi,'#fff')
-
-
     file.contents = new Buffer(data);
-
     // Возвращаем обработанный файл для следующего плагина
         this.push(file);
         cb();
