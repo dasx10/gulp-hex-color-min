@@ -1,6 +1,6 @@
 {
   "name": "gulp-hex-color-min",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "hex collor minify",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dasx10/less-mixin.git"
+    "url": "git+https://github.com/dasx10/gulp-hex-color-min.git"
   },
   "keywords":[
     "gulpplugin",
